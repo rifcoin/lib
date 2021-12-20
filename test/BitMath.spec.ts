@@ -10,7 +10,7 @@ const overrides = {
   gasLimit: 9999999,
 }
 
-describe('BitMath', () => {
+xdescribe('BitMath', () => {
   const provider = new MockProvider({
     ganacheOptions: {
       hardfork: 'istanbul',

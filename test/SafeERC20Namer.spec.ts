@@ -18,7 +18,7 @@ const overrides = {
 const fullBytes32Name = 'NAME'.repeat(8).substr(0, 31)
 const fullBytes32Symbol = 'SYMB'.repeat(8).substr(0, 31)
 
-describe('SafeERC20Namer', () => {
+xdescribe('SafeERC20Namer', () => {
   const provider = new MockProvider({
     ganacheOptions: {
       hardfork: 'istanbul',
